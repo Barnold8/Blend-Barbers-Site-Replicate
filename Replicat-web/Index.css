@@ -1,0 +1,422 @@
+body{		/* This is just override the body to place the background image  */
+
+
+  background-image:	
+
+ 		linear-gradient(to top, rgba(50, 109, 170, 1), rgba(109, 109, 110,  0.5)),
+  		url(Assets/Far-View.jpg); 
+
+  background-repeat: no-repeat;					
+  background-size: 100%;
+
+  margin:0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+
+
+}
+
+body a{
+
+ text-decoration: none;
+ color:black; /* The reason I am declaring the colour 
+ black here is because there are no other hyperlinks beyong
+  this point that need to be any other colour */
+
+}
+
+.Header_BB{
+
+  width: 70px;
+  height: 70px;
+}
+
+nav{
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  border-bottom: 3px solid white;
+  max-width: 50%;
+  margin-left: 25%;
+
+  padding-bottom: 25px; 
+
+}
+nav a{
+
+	color:white;
+	font-family: 'Poppins',sans-serif;
+	text-align: center;
+	padding: 12px;
+	transition-property: color;
+	transition-duration: 0.25s;
+
+
+}
+
+nav a:hover{
+
+	color: #6d6d6e;
+
+}
+
+
+
+nav li{
+
+	text-decoration: none;
+	list-style: none;
+	display: block;
+    display: inline-block;
+    margin-left: 30px;
+
+}
+
+
+ul{
+	text-decoration: none;
+	list-style: none;
+	margin: 0;
+
+	
+
+}
+
+#Error-Parity{
+
+	font-size: 100px;
+	padding-left: 10%;
+	background-color: white;
+
+}
+
+
+
+
+
+
+.Logo{
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  animation-name: Logo_Movement;
+  animation-duration: 4s;
+  width: 600px;
+  height: 600px;
+}
+
+
+@keyframes Logo_Movement {
+  0%   { left:0px; top:300px;}
+  25%  { left:0px; top:0px;}
+
+}
+
+
+
+.prerequisite_bg_white{ /*Makes a background thats white our content */
+
+	background-color: rgba(255,255,255,1);
+	color:black;
+	height:30rem;
+
+	width: 100%;
+
+	text-decoration: none;
+	list-style-type: none;
+
+
+	
+
+	
+}
+
+
+
+
+
+
+.prerequisite_bg_blue{ /*Makes a background thats blue for our content */
+
+	background-color: rgba(69,90,100,1);
+	color:white;
+	height:21rem;
+
+	width: 100%;
+	
+}
+
+
+
+
+.BB_T{
+	padding-top: 100;
+	margin-right: 40;
+	font-family: 'Poppins',sans-serif;
+	font-weight: bold;
+	font-size: 20px;
+	color: #666666;
+	text-align: center;
+
+}
+
+
+.T_L{
+
+	padding-top: 40px;
+	padding-left: 40.5%;
+	
+	font-family: 'Poppins',sans-serif;
+
+	
+}
+
+.T_l li{
+
+
+	text-decoration: none;
+	list-style: none;
+	display: block;
+    display: inline-block;
+    margin-left: 30px;
+
+}
+
+
+
+.T_L a{
+
+	font-size: 11.52px;
+	text-align: center;
+	padding: 10px;
+
+
+}
+
+.Design{
+	text-align: center;
+	justify-content: center;
+	font-size: 9.95px;
+	font-family: 'Poppins',sans-serif;
+	padding-top: 10px;
+	color: #666666;
+	margin-right: 40;
+}
+
+
+.STAFF_CONT {
+ 	font-family: Georgia,Times,Times New Roman,serif; 
+ 	text-align: center;
+ 	font-size: 16px;
+}
+
+.STAFF_CONT h3{
+
+	font-size: 36px;
+	margin: 0;
+	font: bold;
+	border-bottom: 3px solid black;
+	max-width: 20%;
+	justify-content: center;
+	margin-left: 40%;
+
+}
+
+.STAFF_CONT img{
+
+	border-radius: 100%;
+	height:220.3px;
+	width: 220.3px;
+	margin-top: 70;
+	margin-right: 35;
+
+}
+
+
+.ADDR_CONT {
+ 	font-family: 'Poppins',sans-serif;
+ 	text-align: center;
+ 	font-size: 16px;
+}
+
+.ADDR_CONT h5{
+	font-size: 19.2px;
+	margin: 23;
+	font: bold;
+	
+
+}
+
+
+
+
+.Button{
+  box-shadow: 20px 10px 30px #333333;
+
+  border: none;
+  border-radius: 15%;
+  color: #455A64;
+  font-family: 'Poppins',sans-serif;
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+
+  background-color: #FFFFFF;
+  transition: background-color 0.25s;
+
+
+
+
+}
+
+.Button:hover{
+
+
+	background-color: #CCCCCC;
+
+	
+}
+
+.prerequisite_bg_white_footer{ 
+
+	background-color: rgba(255,255,255,1);
+	color:black;
+	height:21rem;
+
+	width: 100%;
+
+	text-decoration: none;
+	list-style-type: none;
+
+
+}
+
+
+.Name{
+
+  font-weight : bold;
+  padding-right: 130px;
+  font-size: 27px;
+  max-width: 10px;
+  text-align: center;
+
+
+}
+
+
+
+#Front{
+ 	float:right;
+	width:1230.98px;
+	height: 825.98;
+
+}
+
+    
+
+.O_T{
+
+	display: inline; /* Converts div to span. Reasoning for this is so I can format everything between the 
+	divs, the span tag wont allow this because it doesnt inherit anything but itself */
+
+	font-family: 'Poppins',sans-serif;
+	padding-top: 10px;
+	text-align: left;
+}
+
+.O_T_SUB-SECTION{
+	display: inline;
+	font-weight: bold;
+	font-size: 19.2px;
+	padding-top: 12px;
+}
+
+.O_T-TITLE{
+
+	font-size: 32px;
+	padding-top: 100px;
+	margin-right: 100px;
+	font-weight: bold;
+
+}
+
+
+.About{
+	font-size: 17.6px;
+	font-family: 'Poppins',sans-serif;
+	text-align: center;
+	max-width: 70%;
+	padding-left: 15%;
+}
+
+#About_Title{
+	
+	font-family: Georgia,Times,Times New Roman,serif; 
+	font-size: 36px;
+
+}
+
+
+.About_Button{
+
+  box-shadow: 20px 10px 30px #333333;
+
+  border: none;
+  border-radius: 15%;
+  color: white;
+  font-family: 'Poppins',sans-serif;
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+
+  background-color: #455A64;
+  transition: background-color 0.75s;
+  transition: color: 0.75s;
+
+
+
+}
+
+
+
+.About_Button:hover{
+
+
+	background-color: #FFFFFF;
+	color:#455A64;
+	
+}
+
+.Top_Button{
+
+  box-shadow: 20px 10px 30px #333333;
+  margin-left: 46.12%;
+  border: none;
+  border-radius: 15%;
+  color: #455A64;
+  font-family: 'Poppins',sans-serif;
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  object-position: center;
+  background-color: #FFFFFF;
+  transition: background-color 0.75s;
+  transition: color: 0.75s;
+
+}
+
+.Top_Button:hover{
+
+	background-color: #455A64;
+	color: #677C86;
+
+}
